@@ -17,5 +17,3 @@ public class Dem0Application {
 	}
 
 }
-
-// テスト　

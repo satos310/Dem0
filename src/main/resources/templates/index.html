@@ -6,5 +6,8 @@
 	</head>
 	<body>
 		<h1>Demo Page</h1>
+		
+		// th:text="${変数名}" -> thmeleafの構文。
+		<p th:text"${msg}"></p>		// 変数名にはコントローラで指定したModelのAttributeで指定した名前を指定する  -> コントローラで指定した値をビューに埋め込むことができる
 	</body>
 </html>
